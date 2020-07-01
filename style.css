@@ -1,15 +1,70 @@
-body{font-family: 'Balsamiq Sans', cursive; }
+body{margin: 0;
+    font-family: 'Balsamiq Sans', cursive; }
 h1{font-size: 50px;}
+h2{40px;}
+p{color:dimgray;}
 
-.name-highlight{
+.darkcyan-highlight{
     color: darkcyan;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 70%;
+}
+.top-banner{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+    padding-bottom:100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon
+    ,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-highlight{
+    color:orangered
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    
+}
+#full-stack{
+    border-bottom: 7px solid;
+    border-color: darkcyan;
+    border-image-slice: 1;
+}
+#baby{
+    border-bottom:7px solid;
+    border-color: darkcyan;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
