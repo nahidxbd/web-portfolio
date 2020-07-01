@@ -1,0 +1,15 @@
+body{font-family: 'Balsamiq Sans', cursive; }
+h1{font-size: 50px;}
+
+.name-highlight{
+    color: darkcyan;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+}
